@@ -1,11 +1,11 @@
 <div>
 <select>
-  <option (click)="kind='person'">People</option>
-  <option (click)="kind='ship'">Ships</option>
-  <option (click)="kind='film'">Films</option>
+  <option (click)="person">People</option>
+  <option (click)="ship">Ships</option>
+  <option (click)="film">Films</option>
 </select>
     <label for="search">
-    <input type="search" id="search" name="search" placeholder="Search For StarWars">
+    <input type="search" id="search" name="search" placeholder="Search StarWars">
     </label>
     <button type="search" (click)="getResults()">SEARCH</button>
 </div>

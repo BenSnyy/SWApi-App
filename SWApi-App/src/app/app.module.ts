@@ -30,7 +30,6 @@ import { MatInputModule } from '@angular/material/input';
     PeoplesComponent,
     PeopleDetailComponent,
     MessagesComponent,
-    
     DropdownComponent,
     SearchComponent,
     ResultsComponent,
@@ -46,6 +45,7 @@ import { MatInputModule } from '@angular/material/input';
     //HttpClientInMemoryWebApiModule.forRoot(
     //  InMemoryDataService, { dataEncapsulation: false }
     //)
+    HttpClientInMemoryWebApiModule,
     NoopAnimationsModule,
     MatMenuModule,
     MatButtonModule,

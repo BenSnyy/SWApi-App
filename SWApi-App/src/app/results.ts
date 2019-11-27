@@ -12,5 +12,4 @@ export class Ship extends Item {
 
 export class Film extends Item {
   title: string;
-  director: string;
 }
