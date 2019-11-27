@@ -1,1 +1,11 @@
-<p>dropdown works!</p>
+<div>
+<select>
+  <option (click)="kind='person'">People</option>
+  <option (click)="kind='ship'">Ships</option>
+  <option (click)="kind='film'">Films</option>
+</select>
+    <label for="search">
+    <input type="search" id="search" name="search" placeholder="Search For StarWars">
+    </label>
+    <button type="search" (click)="getResults()">SEARCH</button>
+</div>

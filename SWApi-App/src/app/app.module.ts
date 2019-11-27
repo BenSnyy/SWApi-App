@@ -17,6 +17,11 @@ import { MessagesComponent } from './messages/messages.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { SearchComponent } from './search/search.component';
 import { ResultsComponent } from './results/results.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -41,6 +46,10 @@ import { ResultsComponent } from './results/results.component';
     //HttpClientInMemoryWebApiModule.forRoot(
     //  InMemoryDataService, { dataEncapsulation: false }
     //)
+    NoopAnimationsModule,
+    MatMenuModule,
+    MatButtonModule,
+    MatInputModule
   ],
   providers: [], // no need to place any providers due to the `providedIn` flag...
   bootstrap: [AppComponent]
