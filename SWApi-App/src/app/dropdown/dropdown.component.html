@@ -1,11 +1,11 @@
 <div class="searchBar">
-<select>
-  <option (click)="kind='person'">People</option>
-  <option (click)="kind='ship'">Ships</option>
-  <option (click)="kind='film'">Films</option>
-</select>
-    <label for="search">
-    <input type="search" id="search" name="search" placeholder="Search">
-    </label>
-    <button type="search" (click)="getResults()">Punch It</button>
+  <select id="dropdown">
+    <option (click)="kind='person'">People</option>
+    <option (click)="kind='ship'">Ships</option>
+    <option (click)="kind='film'">Films</option>
+  </select>
+  <label for="search">
+  <input type="search" id="search" name="search" placeholder="Search">
+  </label>
+  <button type="search" (click)="getResults()">Punch It, Chewie</button>
 </div>
