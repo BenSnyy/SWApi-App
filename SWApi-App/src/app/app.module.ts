@@ -21,6 +21,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSelectModule } from '@angular/material'
 import { MatInputModule } from '@angular/material/input';
 // import { MatSliderModule } from '@angular/material/slider'
 // import { MatSelectModule } from '@angular/material/select'
@@ -54,7 +55,7 @@ import { MatInputModule } from '@angular/material/input';
     MatButtonModule,
     MatInputModule,
     // MatSliderModule,
-    // MatSelectModule,
+    MatSelectModule,
     // MatFormField
   ],
   providers: [], // no need to place any providers due to the `providedIn` flag...

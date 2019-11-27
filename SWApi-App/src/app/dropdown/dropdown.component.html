@@ -1,11 +1,11 @@
 <div class="searchBar">
-  <select id="dropdown">
+  <select placeholder="Select" id="dropdown">
     <option (click)="kind='person'">People</option>
     <option (click)="kind='ship'">Ships</option>
     <option (click)="kind='film'">Films</option>
   </select>
   <label for="search">
-  <input type="search" id="search" name="search" placeholder="Search">
+  <input matInput type="search" id="search" name="search" placeholder="Search... e.g. Skywalker">
   </label>
-  <button type="search" (click)="getResults()">Punch It, Chewie</button>
+  <button mat-button id="searchButton" type="search" (click)="getResults()">Punch It, Chewie</button>
 </div>
